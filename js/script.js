@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).submit(function(){
     $("#click").click(function(){
     $("#h3").toggle();
     $("#menu").toggle();

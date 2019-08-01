@@ -53,12 +53,6 @@ h1{
     color:white;
     margin-top: 10%;
 }
-/* h3{
-    text-align: center;
-    background-color: black;
-    font-size: 20px;
-    color: white;
-} */
 #order-pizza{
     width: 300px;
     height: 250px;
@@ -96,3 +90,47 @@ h1{
 #form-order{
     display: none;
 } */
+h3{
+    text-align: center;
+    /* background-color: black; */
+    font-size: 20px;
+    color: black;
+}
+.footer{
+    background-color: gray;
+}
+.fa
+{
+    padding:2%;
+    font-size: 15px;
+    text-decoration: none;
+    display:inline-block;
+    border-radius:50%;
+    text-align: center;
+
+}
+.fa:hover
+{
+    opacity:0.8;
+}
+.fa-facebook
+{
+    background:black;
+    color:white;
+}
+.fa-twitter
+{
+    background: black;
+    color:white;
+}
+.fa-pinterest
+{
+    background: black;
+    color:white;
+}
+.fa-linkedin
+{
+    background-color: black;
+    color:white;
+   
+}
