@@ -63,7 +63,7 @@ h3{
     width: 300px;
     height: 250px;
     /* background-color: black; */
-    margin-left: 35%;
+    margin-left: 40%;
 
 }
 #new-pizza{
@@ -80,4 +80,10 @@ h3{
     border: 2px;
     border-radius: 20px;
     margin-left: 25%;
+}
+#header4{
+    text-align: center;
+}
+#header3{
+    text-align: center;
 }
