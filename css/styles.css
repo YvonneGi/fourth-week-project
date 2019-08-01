@@ -1,0 +1,68 @@
+.card
+{
+    background-image: url("../images/pizza3B.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:500px;
+    max-width: 100%;
+    /* opacity: 0.8; */
+    /* filter: alpha(opacity=10); */
+}
+.navigation{
+    background-color:grey;
+    height: 90px;
+    max-width:100%; 
+    background-position: top;
+}
+.menu-icon 
+{
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 95%;
+    height: 50px;
+}
+  
+  .bar1, .bar2, .bar3 
+{
+    width: 35px;
+    height: 5px;
+    background-color:black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+h1{
+    font-size: 35px;
+    font-family: italic;
+    margin-left:3%;
+}
+.btn
+{
+    text-align: center;
+    color: white;
+    background-color:red;
+    border: 1px;
+    margin-left: 35%;
+    font-size: 30px;
+}
+#header2{
+    text-align: center;
+    font-family: india Flower;
+    font-size: 50px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color:white;
+    margin-top: 10%;
+}
+h3{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+#order-pizza{
+    width: 300px;
+    height: 250px;
+    /* background-color: black; */
+    margin-left: 35%;
+
+}
