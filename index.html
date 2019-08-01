@@ -25,29 +25,46 @@
                 <div class="card card-image">
                     <div class="text">
                         <h2 id="header2">Get delicious Pizza at your door</h2><br><br><br><br>
-                        <button type="submit" class="btn btn-default" onclick="message()" id="click">See Menu&Order</button>
+                        <button type="submit" class="btn btn-default" id="click">See Menu&Order</button>
                     </div>
                 </div>
             </div>
-        </div>
-            <div class="col md-12">
+        </div><br><br>
+            <div class="col md-12" id="h3">
                 <h2 id="header3">Our Menu:</h2>    
-            </div>
-        <div class="row mx-5">
-        
+            </div><br><br>
+        <div class="row mx-5" id="menu">
             <div class="col md-4">
                 <img src="images/p1.jpg" alt="menu1" id="menu-1" height="200px" width="200px">
+                <ul>
+                    <li>Flavour:Chicken Alfredo</li>
+                    <li>Topping:Onions</li>
+                    <li>Size:big</li>
+                    <li>Cost:12000rwf</li>
+                </ul>
             </div>
             <div class="col md-4">
                 <img src="images/p2.png" alt="menu2" id="menu-2" height="200px" width="200px">
+                <ul>
+                    <li>Flavour:Buffalo Chicken</li>
+                    <li>Topping:Sausage</li>
+                    <li>Size:Medium</li>
+                    <li>Cost:10000rwf</li>
+                </ul>
             </div>
             <div class="col md-4">
                 <img src="images/p3.jpg" alt="menu3" id="menu-3" height="200px" width="200px">
+                <ul>
+                    <li>Flavour:Taco Quesadila</li>
+                    <li>Topping:Black olives</li>
+                    <li>Size:Small</li>
+                    <li>Cost:8000rwf</li>
+                </ul>
             </div>
-        </div>
-        <div class="row ">
+        </div><br><br>
+        <div class="row " id="form-order">
             <div class="col md-12">
-                <h2 id="header4">Make your Order:</h2>
+                <h2 id="header4">Make your Order:</h2><br>
                 <form id="order-pizza">
                     <div class="form-group vertical">
                         <label for="new-flavour">Choose your preferred flavour:</label>
@@ -121,9 +138,14 @@
                     <button type="submit" id="btn">Send</button>
                 </form>
             </div>
-                <!-- <div class="footer">
-                    <h3>Copyright &copy;Pick Pizza All right reserved.</h3>
-                </div> -->
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div class="row">
+        <div class="col md-12">
+            <div class="footer">
+                <h3>Copyright &copy;Pick Pizza All right reserved.</h3>
+            </div>
         </div>
     </div>
  <script src="js/jquery-3.4.1.js"></script>
