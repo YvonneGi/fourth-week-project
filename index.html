@@ -25,8 +25,9 @@
                 <h2 id="header3">Our Menu:</h2>    
             </div><br><br>
         <div class="row mx-5" id="menu">
+            <!-- <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div> -->
             <div class="col md-4">
-                <img src="images/p1.jpg" alt="menu1" id="menu-1" height="200px" width="200px">
+                <img class="myslides" src="images/p1.jpg" alt="menu1" id="menu-1" height="200px" width="200px">
                 <ul>
                     <li>Flavour:Chicken Alfredo</li>
                     <li>Topping:Onions</li>
@@ -35,7 +36,7 @@
                 </ul>
             </div>
             <div class="col md-4">
-                <img src="images/p2.png" alt="menu2" id="menu-2" height="200px" width="200px">
+                <img class="myslides" src="images/p2.png" alt="menu2" id="menu-2" height="200px" width="200px">
                 <ul>
                     <li>Flavour:Buffalo Chicken</li>
                     <li>Topping:Sausage</li>
@@ -44,7 +45,7 @@
                 </ul>
             </div>
             <div class="col md-4">
-                <img src="images/p3.jpg" alt="menu3" id="menu-3" height="200px" width="200px">
+                <img class="myslides" src="images/p3.jpg" alt="menu3" id="menu-3" height="200px" width="200px">
                 <ul>
                     <li>Flavour:Taco Quesadila</li>
                     <li>Topping:Black olives</li>
@@ -52,6 +53,34 @@
                     <li>Cost:8000rwf</li>
                 </ul>
             </div>
+            <!-- <div class="w3-right" onclick="plusDivs(1)">&#10095;</div> -->
+            <!-- <div class="col md-4">
+                    <img class="myslides" src="images/p1.jpg" alt="menu1" id="menu-1" height="200px" width="200px">
+                    <ul>
+                        <li>Flavour:Chicken Alfredo</li>
+                        <li>Topping:Onions</li>
+                        <li>Size:big</li>
+                        <li>Cost:12000rwf</li>
+                    </ul>
+                </div>
+                <div class="col md-4">
+                    <img class="myslides" src="images/p2.png" alt="menu2" id="menu-2" height="200px" width="200px">
+                    <ul>
+                        <li>Flavour:Buffalo Chicken</li>
+                        <li>Topping:Sausage</li>
+                        <li>Size:Medium</li>
+                        <li>Cost:10000rwf</li>
+                    </ul>
+                </div>
+                <div class="col md-4">
+                    <img class="myslides" src="images/p3.jpg" alt="menu3" id="menu-3" height="200px" width="200px">
+                    <ul>
+                        <li>Flavour:Taco Quesadila</li>
+                        <li>Topping:Black olives</li>
+                        <li>Size:Small</li>
+                        <li>Cost:8000rwf</li>
+                    </ul>
+                </div> -->
         </div><br><br>
         <div class="row " id="form-order">
             <div class="col md-12">
@@ -60,7 +89,7 @@
                     <div class="form-group vertical">
                         <label for="new-flavour">Choose your preferred flavour:</label>
                         <div class="flavour-option">
-                            <select name="flavour" class="form-control">
+                            <select name ="flavour" class="form-control" id="flavour">
                                 <option value="">Select flavour</option>
                                 <option value="flavour-type1"> Berry, Arugula and Prosciutto Pizza</option>
                                 <option value="flavour-type2">Macaroni And Cheese Pizza</option>
@@ -78,7 +107,7 @@
                     <div class="form-group vertical">
                         <label for="new-size">Choose your preferred size:</label>
                         <div class="size-option">
-                            <select name="size" class="form-control">
+                            <select name="size" class="form-control" id="size">
                                 <option value="">Select size</option>
                                 <option value="small-size">Small-pizza</option>
                                 <option value="medium-size">medium-pizza</option>
@@ -88,7 +117,7 @@
                     <div class="form-group vertical">
                         <label for="new-topping">Choose your preferred topping:</label>
                         <div class="topping-option">
-                            <select name="topping" class="form-control">
+                            <select name="topping" class="form-control" id="topping">
                                 <option value="">Select topping</option>
                                 <option value="topping-type1">Pepperoni</option>
                                 <option value="topping-type2">Mushrooms</option>
@@ -106,7 +135,7 @@
                     <div class="form-group vertical">
                         <label for="new-crust">Choose your preferred crust:</label>
                         <div class="crust-option">
-                            <select name="crust" class="form-control">
+                            <select name="crust" class="form-control" id="crust">
                                 <option value="">Select crust</option>
                                 <option value="crust-type1">Stuffed Crust</option>
                                 <option value="crust-type2">Cheese Filled Crust</option>
@@ -129,6 +158,27 @@
                     <button type="submit" id="btn">Send</button>
                 </form>
             </div>
+            <h2>Your order:</h2>
+            <ul id="yourOrder">
+  
+            </ul>
+          </div>
+  
+          <div class="col-md-6">
+            <div id="show-order">
+              <h2></h2>
+              <p>Flavour: <span class="flavour"></span></p>
+              <p>Topping: <span class="topping"></span></p>
+              <p>Crust:<span class="crust"></span></p>
+              <p>Size: <span class="size"></span></p>
+              <p>Number: <span class="new-number"></span></p>
+              <p>Cost:<span class="cost"></span></p>
+
+              <ul id="order1">
+  
+              </ul>
+            </div>
+          </div>
         </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br>
