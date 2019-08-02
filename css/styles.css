@@ -32,23 +32,16 @@
     transition: 0.4s;
 }
 h1{
-    font-size: 35px;
+    font-size: 50px;
     font-family: italic;
-    margin-left:3%;
-}
-.btn
-{
+    /* margin-left:3%; */
     text-align: center;
     color: white;
-    background-color:red;
-    border: 1px;
-    margin-left: 35%;
-    font-size: 30px;
 }
-#header2{
+#desc{
     text-align: center;
     font-family: india Flower;
-    font-size: 50px;
+    font-size: 20px;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     color:white;
     margin-top: 10%;
@@ -81,56 +74,9 @@ h1{
 #header3{
     text-align: center;
 }
-/* #h3{
-    display: none;
-}
-#menu{
-    display: none;
-}
-#form-order{
-    display: none;
-} */
 h3{
     text-align: center;
     /* background-color: black; */
-    font-size: 20px;
+    font-size: 10px;
     color: black;
-}
-.footer{
-    background-color: gray;
-}
-.fa
-{
-    padding:2%;
-    font-size: 15px;
-    text-decoration: none;
-    display:inline-block;
-    border-radius:50%;
-    text-align: center;
-
-}
-.fa:hover
-{
-    opacity:0.8;
-}
-.fa-facebook
-{
-    background:black;
-    color:white;
-}
-.fa-twitter
-{
-    background: black;
-    color:white;
-}
-.fa-pinterest
-{
-    background: black;
-    color:white;
-}
-.fa-linkedin
-{
-    background-color: black;
-    color:white;
-   
 }
