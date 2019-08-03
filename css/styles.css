@@ -61,11 +61,11 @@ h3{
     color: black;
 }
 #logo{
-    width: 10%;
+    width: 12%;
     height: 15%;
     margin-left: 45%;
-    /* background-color: transparent 0.1; */
-    border: 2px;
+    /* background-color:black; */
+    border: 1px;
     border-radius: 50%;
 }
 #show-order{
@@ -82,3 +82,13 @@ h4{
 .orders:hover {
     text-decoration: underline;
   }
+#menu-order{
+    background-color: red;
+    margin-left: 50%;
+    color: white;
+    border: 1px;
+    border-radius: 20%;
+    
+
+
+}
