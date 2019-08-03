@@ -50,6 +50,7 @@ h1{
 }
 #header4{
     text-align: center;
+    margin-left: 20%;
 }
 #header3{
     text-align: center;
@@ -68,7 +69,7 @@ h3{
     border: 1px;
     border-radius: 50%;
 }
-#show-order{
+/* #show-order{
  display: none;
 }
 h4{
@@ -78,7 +79,7 @@ h4{
 .orders {
     cursor: pointer;
     color:red;
-  }
+  } */
 .orders:hover {
     text-decoration: underline;
   }
