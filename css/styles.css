@@ -1,6 +1,6 @@
 .card
 {
-    background-image: url("../images/pizza3B.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url("../images/pizza3B.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size:cover;
@@ -14,13 +14,13 @@ h1{
     font-family:'Trebuchet MS';
     /* margin-left:3%; */
     text-align: center;
-    color:black;
+    color:white;
 }
 #desc{
     text-align: center;
     font-family: 'Trebuchet MS';
     font-size: 25px;
-    color:black;
+    color:white;
     margin-top: 10%;
 }
 #order-pizza{
@@ -29,6 +29,9 @@ h1{
     /* background-color: black; */
     margin-left: 40%;
 
+}
+#form-order{
+    background-color: grey;
 }
 #new-pizza{
     font-size: 20px;
@@ -66,5 +69,16 @@ h3{
     border-radius: 50%;
 }
 #show-order{
-    display: none;
+ display: none;
 }
+h4{
+    margin-left: 30%;
+    color: black;
+}
+.orders {
+    cursor: pointer;
+    color:red;
+  }
+.orders:hover {
+    text-decoration: underline;
+  }
