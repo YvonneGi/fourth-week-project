@@ -69,7 +69,7 @@ h3{
     border: 1px;
     border-radius: 50%;
 }
-/* #show-order{
+#show-order{
  display: none;
 }
 h4{
@@ -79,7 +79,7 @@ h4{
 .orders {
     cursor: pointer;
     color:red;
-  } */
+  }
 .orders:hover {
     text-decoration: underline;
   }
