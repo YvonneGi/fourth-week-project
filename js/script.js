@@ -49,16 +49,17 @@ function Order(flavour,size,topping,crust,number) {
 
       var newOrder = new Order(inputtedFlavour, inputtedSize, inputtedTopping, inputtedCrust, inputtedNumber);
       console.log(newOrder);
-      $("ul#our-order").append("<li><span class='contact'>" + newOrder.fullOrder() + "</span></li>");
+
+      // $("ul#our-order").append("<li><span class='your-order'>" + newOrder.fullOrder() + "</span></li>");
   
-      $(".contact").last().click(function() {
+      $("#btn").last().click(function() {
         $("#show-order").show();
         $("#show-order h2").text(newOrder.fullOrder());
         $(".flavour").text(newOrder.flavour);
         $(".size").text(newOrder.size);
         $(".topping").text(newOrder.topping);
         $(".crust").text(newOrder.crust);
-        $(".number").text(newOrder.new-number);
+        $(".number").text(newOrder.number);
 
       });
   
