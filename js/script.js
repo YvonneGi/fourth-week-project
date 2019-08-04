@@ -59,7 +59,7 @@ function Order(flavour,size,topping,crust,number) {
         $(".size").text(newOrder.size);
         $(".topping").text(newOrder.topping);
         $(".crust").text(newOrder.crust);
-        $(".number").text(newOrder.number);
+        $(".number").number(newOrder.number);
 
       });
   
