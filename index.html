@@ -85,98 +85,104 @@
             <div class="col md-12">
                 <h2 id="header4">Make your Order:</h2><br>
                 <form id="order-pizza">
-                    <div class="form-group vertical">
-                        <label for="new-flavour">Choose your preferred flavour:</label>
-                        <div class="flavour-option">
-                            <select name ="flavour" class="form-control" id="flavour">
-                                <option value="">Select flavour</option>
-                                <option value="Berry"> Berry</option>
-                                <option value="Cheese">Cheese</option>
-                                <option value="Butternut">Butternut</option>
-                                <option value="Buffalo">Buffalo</option>
-                                <option value="Cantaloupe">Cantaloupe</option>
-                                <option value="Butter">Butter </option>
-                                <option value="Hummus">Hummus</option>
-                                <option value="Chicken">Chicken</option>
-                                <option value="Taco">Taco</option>
-                            </select>
+                        <div class="form-group vertical" id="another-pizza">
+                            <label for="new-number">How many pizza do you want?,Choose:</label>
+                            <input type="number" class="form-control" id="number" min="1" value="">
                         </div>
-                    </div>
-                    <div class="form-group vertical">
-                        <label for="new-size">Choose your preferred size:</label>
-                        <div class="size-option">
-                            <select name="size" class="form-control" id="size">
-                                <option value="">Select size</option>
-                                <option value="small">Small-pizza</option>
-                                <option value="medium">medium-pizza</option>
-                                <option value="big">big-pizza</option>
-                            </select>
-                    </div>
-                    <div class="form-group vertical">
-                        <label for="new-topping">Choose your preferred topping:</label>
-                        <div class="topping-option">
-                            <select name="topping" class="form-control" id="topping">
-                                <option value="">Select topping</option>
-                                <option value="Pepperoni">Pepperoni</option>
-                                <option value="Mushrooms">Mushrooms</option>
-                                <option value="tOnions">Onions</option>
-                                <option value="Sausage">Sausage</option>
-                                <option value="Bacon">Bacon</option>
-                                <option value="cheese">cheese</option>
-                                <option value="lives">lives</option>
-                                <option value="Green peppers">Green peppers</option>
-                                <option value="Pineapple">Pineapple</option>
-                                <option value="Spinach">Spinach</option>
-                            </select>
+                        <div class="form-group vertical">
+                                <label for="new-size">Choose your preferred size:</label>
+                                <div class="size-option">
+                                    <select name="size" class="form-control" id="size">
+                                        <option value="">Select size</option>
+                                        <option value="Size:small">Small-pizza</option>
+                                        <option value="Size:medium">medium-pizza</option>
+                                        <option value="size:big">big-pizza</option>
+                                    </select>
+                                </div>
                         </div>
-                    </div>
-                    <div class="form-group vertical">
-                        <label for="new-crust">Choose your preferred crust:</label>
-                        <div class="crust-option">
-                            <select name="crust" class="form-control" id="crust">
-                                <option value="">Select crust</option>
-                                <option value="Stuffed">Stuffed Crust</option>
-                                <option value="Cheese Filled Crust">Cheese Filled Crust</option>
-                                <option value="Deep Crust"> Deep Crust</option>
-                                <option value="Thick Crust">Thick Crust</option>
-                                <option value="Thin Crust">Thin Crust</option>
-                            </select>
+                        <div class="form-group vertical">
+                            <label for="new-flavour">Choose your preferred flavour:</label>
+                                <div class="flavour-option">
+                                    <select name ="flavour" class="form-control" id="flavour">
+                                        <option value="">Select flavour</option>
+                                        <option value="Berry"> Berry</option>
+                                        <option value="Cheese">Cheese</option>
+                                        <option value="Butternut">Butternut</option>
+                                        <option value="Buffalo">Buffalo</option>
+                                        <option value="Cantaloupe">Cantaloupe</option>
+                                        <option value="Butter">Butter </option>
+                                        <option value="Hummus">Hummus</option>
+                                        <option value="Chicken">Chicken</option>
+                                        <option value="Taco">Taco</option>
+                                    </select>
+                                </div>
+                        </div> 
+                        <div class="form-group vertical">
+                            <label for="new-topping">Choose your preferred topping:</label>
+                                <div class="topping-option">
+                                    <select name="topping" class="form-control" id="topping">
+                                        <option value="">Select topping</option>
+                                        <option value="Pepperoni">Pepperoni</option>
+                                        <option value="Mushrooms">Mushrooms</option>
+                                        <option value="tOnions">Onions</option>
+                                        <option value="Sausage">Sausage</option>
+                                        <option value="Bacon">Bacon</option>
+                                        <option value="cheese">cheese</option>
+                                        <option value="lives">lives</option>
+                                        <option value="Green peppers">Green peppers</option>
+                                        <option value="Pineapple">Pineapple</option>
+                                        <option value="Spinach">Spinach</option>
+                                    </select>
+                                </div>
+                        </div> 
+                        <div class="form-group vertical">
+                            <label for="new-crust">Choose your preferred crust:</label>
+                            <div class="crust-option">
+                                <select name="crust" class="form-control" id="crust">
+                                    <option value="">Select crust</option>
+                                    <option value="Stuffed">Stuffed Crust</option>
+                                    <option value="Cheese Filled Crust">Cheese Filled Crust</option>
+                                    <option value="Deep Crust"> Deep Crust</option>
+                                    <option value="Thick Crust">Thick Crust</option>
+                                    <option value="Thin Crust">Thin Crust</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group vertical">
-                        <label for="new-number">How many pizza do you want?,Choose:</label>
-                        <input type="number" class="form-control" id="new-number" min="1" value="number">
-                    </div>
                     <button type="submit" id="new-pizza">Another Pizza</button>
-                    <button type="submit" id="btn">Send</button>
+                    <!-- <span class="btn btn-primary" id="new-pizza">Another Pizza</span> -->
+                    <button type="submit" id="btn" onclick="">Send</button>
                 </form>
             </div>
-            <br><br><br><br><br><br><br><br><br><br>
-          </div>
-  
+        </div>
+        <br><br><br><br><br>
+        
           <div class="col-md-6" id="yourOrder">
             <div id="show-order">
                 <br><br><br><br>
-                <h4>Your Order:</h4>
+                <h4>Your Your order:</h4>
                 <ul id="your-order">
-          
-                </ul>
-              <h2></h2>
-              <p>Flavour: <span class="flavour"></span></p>
-              <p>Topping: <span class="topping"></span></p>
-              <p>Crust:<span class="crust"></span></p>
-              <p>Size: <span class="size"></span></p>
-              <p>Number: <span class="new-number"></span></p>
-              <!-- <p>Cost:<span class="cost"></span></p> -->
+                <!-- <li></li> -->
 
-              <ul id="order1">
+          
+                </ul>      
+               <p id="order1"></p>
+               <!-- <div class="my">
+                    <p>Flavour: <span class="flavour"></span></p> 
+                    <p>Topping: <span class="topping"></span></p>
+                    <p>Crust:<span class="crust"></span></p>
+                    <p>Size: <span class="size"></span></p>
+                    <p>Number: <span class="number"></span></p>
+                    <p>Cost:<span class="cost"></span></p> -->
+               <!-- </div> --> 
+
+              <!-- <ul id="order1">
   
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
     </div>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br>
     <div class="row">
         <div class="col md-12">
             <div class="footer">
