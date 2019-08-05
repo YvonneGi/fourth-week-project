@@ -1,21 +1,3 @@
-// var slideIndex = 1;
-// showDivs(slideIndex);
-
-// function plusDivs(n) {
-//   showDivs(slideIndex += n);
-// }
-
-// function showDivs(n) {
-//   var i;
-//   var x = document.getElementsByClassName("mySlides");
-//   if (n > x.length) {slideIndex = 1} 
-//   if (n < 1) {slideIndex = x.length} ;
-//   for (i = 0; i < x.length; i++) {
-//     x[i].style.display = "none"; 
-//   }
-//   x[slideIndex-1].style.display = "block"; 
-// }
-
 //Business Logic
 function Order(flavour, size, topping, crust, pFlavour, pTopping, pCrust, pSize) {
   this.myFlavour = flavour;
@@ -56,8 +38,6 @@ $(document).ready(function () {
 
     var newOrder = new Order(inputtedFlavour, inputtedSize, inputtedTopping,
       inputtedCrust, inputtedPFlavour, inputtedPSize, inputtedPTopping, inputtedPCrust);
-
-    // console.log(inputtedPFlavour+'/'+inputtedPSize+'/'+inputtedPTopping+'/'+inputtedPCrust);
     $(".flavour").text(newOrder.myFlavour);
     $(".size").text(newOrder.mySize);
     $(".topping").text(newOrder.myTopping);

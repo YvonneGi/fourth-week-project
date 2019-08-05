@@ -7,31 +7,36 @@
     height:500px;
     max-width: 100%;
 }
-h1{
+h1
+{
     font-size: 80px;
     font-family:'Trebuchet MS';
     text-align: center;
     color:white;
 }
-#desc{
+#desc
+{
     text-align: center;
     font-family: 'Trebuchet MS';
     font-size: 25px;
     color:white;
     margin-top: 10%;
 }
-#order-pizza{
+#order-pizza
+{
     width: 300px;
     margin-left: 40%;
 }
-#new-pizza{
+#new-pizza
+{
     font-size: 20px;
     background-color:red;
     border: 2px;
     border-radius: 20px;
     color: white;
 }
-#btn{
+#btn
+{
     font-size: 20px;
     background-color:red;
     color: white;
@@ -39,11 +44,13 @@ h1{
     border-radius: 20px;
     margin-left: 25%;
 }
-#header4{
+#header4
+{
     text-align: center;
     margin-left: 10px;
 }
-#header3{
+#header3
+{
     text-align: center;
 }
 h3{
@@ -51,30 +58,36 @@ h3{
     font-size: 10px;
     color:white;
 }
-#logo{
+#logo
+{
     width: 12%;
     height: 15%;
     margin-left: 45%;
     border: 1px;
     border-radius: 50%;
 }
-.my{
+.my
+{
  display: none;
 }
-h4{
+h4
+{
     margin-left: 50%;
     color: black;
     font-size: 20px;
 
 }
-.orders {
+.orders 
+{
     cursor: pointer;
     color:red;
-  }
-.orders:hover {
+}
+.orders:hover 
+{
     text-decoration: underline;
-  }
-#menu-order{
+}
+#menu-order
+{
     background-color: red;
     margin-left: 40%;
     color: white;
@@ -101,18 +114,21 @@ h4{
     color: white;
     margin-left: 40%;
 }
-h5{
+h5
+{
     text-align: center;
     font-family: sans-serif;
     font-size: 25px;
     color: white;
 }
-#cont{
+#cont
+{
     text-align: center;
     font-family: sans-serif;
     color: white;
     font-size: 20px;
 }
-.my{
+.my
+{
     margin-left: 50%;
 }
