@@ -17,7 +17,7 @@
 // }
 
 //Business Logic
-function Order(flavour,size,topping,crust,pFlavour,pTopping,pCrust,pSize){
+function Order(flavour, size, topping, crust, pFlavour, pTopping, pCrust, pSize) {
   this.myFlavour = flavour;
   this.mySize = size;
   this.myTopping = topping;
@@ -26,25 +26,22 @@ function Order(flavour,size,topping,crust,pFlavour,pTopping,pCrust,pSize){
   this.myPriceT = pTopping;
   this.myPriceC = pCrust;
   this.myPriceS = pSize;
-
-  // this.myNumber = number;
 }
 
-Order.prototype.fullOrder = function() {
-  return this.myPriceF + this.myPriceT+ this.myPriceS + this.myPriceC;
+Order.prototype.fullOrder = function () {
+  return this.myPriceF + this.myPriceT + this.myPriceS + this.myPriceC;
 }
 function resetFields() {
-    $("select#flavour").val("");
-    $("select#size").val("");
-    $("select#topping").val("");
-    $("select#crust").val("");
-    $("select#new-number").val("");
+  $("select#flavour").val("");
+  $("select#size").val("");
+  $("select#topping").val("");
+  $("select#crust").val("");
+  $("select#new-number").val("");
 }
 
 // user interface logic
-$(document).ready(function() {
-  // $("form#order-pizza").submit(function(event) {
-    $("#btn").click(function(event) {
+$(document).ready(function () {
+  $("#btn").click(function (event) {
     event.preventDefault();
     $(".my").show();
     var inputtedFlavour = $("#flavour option:selected").text();
@@ -55,29 +52,21 @@ $(document).ready(function() {
     var inputtedPFlavour = parseInt($("#flavour option:selected").val());
     var inputtedPSize = parseInt($("#size option:selected").val());
     var inputtedPTopping = parseInt($("#topping option:selected").val());
-    var inputtedPCrust =parseInt($("#crust option:selected").val());
-    
-    // console.log(inputtedFlavour+'/'+inputtedSize+'/'+inputtedTopping+'/'+inputtedCrust);
+    var inputtedPCrust = parseInt($("#crust option:selected").val());
 
+    var newOrder = new Order(inputtedFlavour, inputtedSize, inputtedTopping,
+      inputtedCrust, inputtedPFlavour, inputtedPSize, inputtedPTopping, inputtedPCrust);
 
-    var newOrder = new Order(inputtedFlavour, inputtedSize, inputtedTopping, inputtedCrust,inputtedPFlavour,inputtedPSize,inputtedPTopping,inputtedPCrust);
-    // console.log(newOrder);
-
-    //  $("ul#your-order").append("<li><span class='cont'>" + newOrder.fullOrder() + "</span></li>");
-
-    // $("#btn").click(function() {
-      // $(".my").show();
-      console.log(inputtedPFlavour+'/'+inputtedPSize+'/'+inputtedPTopping+'/'+inputtedPCrust);
-      // $("#show-order p").text(newOrder.fullOrder());
-      $(".flavour").text(newOrder.myFlavour);
-      $(".size").text(newOrder.mySize);
-      $(".topping").text(newOrder.myTopping);
-      $(".crust").text(newOrder.myCrust);
-      $(".cost").text(newOrder.fullOrder());
-
-    });
-
-    resetFields();
+    // console.log(inputtedPFlavour+'/'+inputtedPSize+'/'+inputtedPTopping+'/'+inputtedPCrust);
+    $(".flavour").text(newOrder.myFlavour);
+    $(".size").text(newOrder.mySize);
+    $(".topping").text(newOrder.myTopping);
+    $(".crust").text(newOrder.myCrust);
+    $(".cost").text(newOrder.fullOrder());
 
   });
+
+  resetFields();
+
+});
 

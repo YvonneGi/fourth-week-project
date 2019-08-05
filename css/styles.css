@@ -6,13 +6,10 @@
     background-size:cover;
     height:500px;
     max-width: 100%;
-    /* opacity: 0.8; */
-    /* filter: alpha(opacity=10); */
 }
 h1{
     font-size: 80px;
     font-family:'Trebuchet MS';
-    /* margin-left:3%; */
     text-align: center;
     color:white;
 }
@@ -25,15 +22,7 @@ h1{
 }
 #order-pizza{
     width: 300px;
-    /* height: 100px; */
-    /* background-color: black; */
     margin-left: 40%;
-}
-#form-order{
-    background-color: grey;
-    border: 2px;
-    width: 100%;
-    /* margin-left: 20%; */
 }
 #new-pizza{
     font-size: 20px;
@@ -52,31 +41,31 @@ h1{
 }
 #header4{
     text-align: center;
-    /* margin-left: 2%; */
+    margin-left: 10px;
 }
 #header3{
     text-align: center;
 }
 h3{
     text-align: center;
-    /* background-color: black; */
     font-size: 10px;
-    color: black;
+    color:white;
 }
 #logo{
     width: 12%;
     height: 15%;
     margin-left: 45%;
-    /* background-color:black; */
     border: 1px;
     border-radius: 50%;
 }
-#show-order{
+.my{
  display: none;
 }
 h4{
-    margin-left: 30%;
+    margin-left: 50%;
     color: black;
+    font-size: 20px;
+
 }
 .orders {
     cursor: pointer;
@@ -95,4 +84,35 @@ h4{
     font-family: sans-serif;
     font-style: 20px;
 }
+.footer
+{
+    background-color:black;
+    background-position: bottom;
+    padding: 10px;
+    margin-top:10%;
+    margin-left: -10px;
+    margin-bottom:-50%;
+    margin-right: -10px;
 
+}
+.contacts
+{
+    text-align: center;
+    color: white;
+    margin-left: 40%;
+}
+h5{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+#cont{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.my{
+    margin-left: 50%;
+}
